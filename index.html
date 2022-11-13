@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/f8d537382a.js" crossorigin="anonymous"></script>
+
+    <title>Document</title>
+</head>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="#"><img src="/img/1665332454749-removebg-preview.png" width="125px"></a>
+                    
+                </div>
+                <nav class="nav2">
+                    <ul id="MenuItems">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Courses<i class="fas fa-caret-down"></i></a>
+                        <div class="drop_down">
+                            <ul>
+                                <li><a href="#">B.Tech<i class="fas fa-caret-right"></i></a></li>
+                                <li><a href="#">MCA</a></li>
+                                <li><a href="#">B Pharma</a></li>
+                                <li><a href="#">MBBS</a></li>
+                            </ul>
+                        </div>  
+                        </li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="/Time.html">Time Table</a></li>
+                    </ul>
+                </nav>
+                <img src="/img/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+        </div>
+    </div>
+    <div class="box-shade">
+        <div class="title">
+            <body style="font-family:'Times New Roman', Times, serif ;">
+                <font size="+3">
+            <center>Department Of Computer Application</center></font></body>    
+        </div>
+    </div>
+     <!-- video -->
+   <div class="offer">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-2">
+                <img src="" class="offer-img">
+            </div>
+            <div class="col-2">
+                <p>Exclusively Available on 8teenStore</p><br>
+                <h1>Smart Band 4</h1><br>
+                <small>The Mi Smart Band 4 feature a 39.9% larger(than Mi Band 3) AMOLED color full-touch display with adjustable brightness, 
+                    so everything is clear as can be.</small><br>
+             <a href="" class="btn">Buy Now &#8594;</a>
+            </div>
+        </div>
+    </div>
+</div>
+    
+
+    <div class="footer">
+            <div class="row">
+
+             <div class="footer-col-3">
+                 <h3>Our Links</h3>
+                <ul>
+                    <li>Alumni</li>
+                    <li>Career</li>
+                    <li>Disclaimer</li>
+                    <li>Fee Structure</li>
+                </ul>
+             </div><br><br>
+              <div class="footer-col-4">
+                 <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>YouTube</li>
+                </ul>
+            </div>
+            </div>
+            <hr>
+            <p class="Copyright">Copyright 2022 - Nadeem Khan</p></div>
+            </div>
+    </div>
+  
+
+
+
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+        function menutoggle(){
+            if( MenuItems.style.maxHeight == "0px")
+            {
+             MenuItems.style.maxHeight = "200px";
+            }
+            else
+            {
+             MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+    
+    
+</body>
+</html>
